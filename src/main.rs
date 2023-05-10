@@ -1,3 +1,7 @@
+mod analyze;
+
+use analyze::device_analyze;
+
 fn main() {
-    println!("Hello, world!");
+    device_analyze()
 }
